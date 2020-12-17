@@ -1,8 +1,9 @@
 # PyScroll
-Scroll your screen **up** & **down**, with the power of python. Scroll facebook, instagram, tiktok, pinterest, google, anything, any infinite scrolling screen.
+Scroll your screen **up** & **down**, with the power of python. Scroll facebook, instagram, tiktok, pinterest, youtube, anything, any infinite scrolling screen.
 
 ## Working
-* Grab an yellow colored object in your hand, having size atleast half of your palm's size, and move your hand upwards or downwards, at a decent pace, to scroll up or down, respectively.
+* Grab a yellow colored object in your hand, having size atleast half of your palm's size, and move your hand upwards or downwards, at a decent pace, to scroll up or down, respectively.
+*(you can change the color to be detected, by changing the color ranges)*
 
 ## Requirements
 * **pip install pyautogui** - for emulating the keyclicks on the desired object movement
