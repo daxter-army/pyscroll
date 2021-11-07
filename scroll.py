@@ -3,7 +3,7 @@ import cv2
 import pyautogui as pag
 import numpy as np
 
-# changing these parameters will affect the triggers,
+# changing these parameters will affect the triggers
 # more MAGNITUDE, more SWIFT movement of hand
 Y_DOWN_DIFF = 20
 Y_UP_DIFF = -20
@@ -12,11 +12,12 @@ Y_UP_DIFF = -20
 # 0 traditionally, 1 if 0 is not working for you
 capture = cv2.VideoCapture(0)
 
-# selecting the yellow color range for detecting in the video
+# selecting the YELLOW color range for detecting in the video
+# this color will act as a trigger, you can set your own color by changing these values
 yellowLower = np.array([22, 93, 0])
 yellowUpper = np.array([45, 255, 255])
 
-# for storing the previous location of the image
+# helping variable, for storing the previous location of the image
 prev_y = 0
 
 # for streaming webcam
@@ -51,7 +52,7 @@ while True:
     # display the masked frame
     cv2.imshow('mask', mask)
 
-    # exit the stream
+    # exit the stream, program when q is pressed
     if cv2.waitKey(10) == ord('q'):
         break
 
