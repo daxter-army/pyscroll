@@ -8,9 +8,18 @@ Scroll your screen **up** & **down**, with the power of python. Scroll any scree
 * **pip install numpy** - for internal working
 
 ## 🏎 Run
-* *python main.py*
-* *note : after running the script, keep the browser tab or respected concerned screen, in focus, in which you want to scroll.*
-* Grab a yellow colored object in your hand, having size atleast half of your palm's size, and move your hand upwards or downwards, at a decent pace, to scroll up or down, respectively.
+* On windows
+```sh
+python scroll.py
+```
+
+* On Linux/MacOS
+```sh
+python3 scroll.py
+```
+
+* **NOTE** : After running the script, keep the browser tab or concerned screen in focus, which you want to scroll.
+* Grab a yellow colored object in your hand, having size atleast half of your palm, and move your hand upwards or downwards, at a decent pace, to scroll up or down, respectively.
 *(you can change the color to be detected, by changing the color ranges)*
 
 ## 🎨 Color Ranges
