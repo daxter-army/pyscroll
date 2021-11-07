@@ -8,7 +8,7 @@ Scroll your screen **up** & **down**, with the power of python. Scroll any scree
 * **pip install numpy** - for internal working
 
 ## 🏎 Run
-* On windows
+* On Windows
 ```sh
 python scroll.py
 ```
