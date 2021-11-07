@@ -1,6 +1,11 @@
 # PyScroll
 Scroll your screen **up ⬆** & **down ⬇**, with the power of python. Scroll any screen infinite screen of your YouTube, Instagram, Facebook, Netflix & whatever you want.
 
+## Demonstration
+<p align="center">
+<img src="./readme-media/pyscroll-demo-gif.gif" alt="demo-gif"/>
+</p>
+
 ## 🛠 Requirements
 * This piece of code utilizes the following listed python modules to work:
     * **pip install pyautogui** - for emulating the keyclicks on the desired object movement
